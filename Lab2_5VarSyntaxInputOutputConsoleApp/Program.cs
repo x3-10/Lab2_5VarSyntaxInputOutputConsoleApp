@@ -36,7 +36,7 @@ namespace Lab2_5VarSyntaxInputOutputConsoleApp
             Console.WriteLine($"{intFirstNumber} multiplied by {intSecondNumber} is {intResult}");
 
             //Dividing
-            intResult = intFirstNumber / intSecondNumber;
+            dblResult = intFirstNumber /Convert.ToDouble(intSecondNumber);
             Console.WriteLine($"{intFirstNumber} divided by {intSecondNumber} is {intResult}");
 
             // 2. Write a C# program to print Hello and your name (which you will type in on the Console) in a separate line.
